@@ -29,3 +29,23 @@ body {
     background-color: var(--background-color);
     font-family: var(--font-family);
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1280px;
+    padding-inline: 32px;
+    margin-inline: auto;
+}
+
+.bg-surface-color {
+    background-color: var(--surface-color);
+}
